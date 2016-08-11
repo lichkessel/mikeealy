@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Test</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="timer.css" />
+	<script type="text/javascript" src="timer.js"></script>
+</head>
+<body onload="CountTimer.run(1,'#wrap-timer',60+30,5);CountTimer.run(2,'#wrap-timer2',40/60,10/60)">
+
+
+<div id="wrap-timer"></div>
+<div id="wrap-timer2"></div>
+
+<button onclick="CountTimer.cleanup()">cleanup</button>
+
+<form name="form1" method="post" action="page2.html">
+  <label>
+    <input type="submit" name="button" id="button" value="Submit">
+  </label>
+</form>
+</body>
+</html>
+

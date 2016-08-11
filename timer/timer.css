@@ -1,0 +1,41 @@
+[count-timer]
+{
+  display:inline-block;
+  margin:0.2em;
+}
+[count-timer__button]>button:before
+{
+	content:'Hide timer';
+}
+[count-timer_hidden] [count-timer__button]>button:before
+{
+	content:'Show timer';
+}
+[count-timer_hidden] [count-timer__result]
+{
+	display: none;
+}
+[count-timer__result]
+{
+  text-align:center;
+}
+[count-timer__result]:before
+{
+    content:'Time remaining:';
+    display:inline-block;
+    padding-right:0.5em;
+}
+[count-timer__button]>button {
+    display: block;
+    padding: 0.2em 0.4em 0.1em 0.5em;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: #fff;
+    background: #830b2c;
+    margin-bottom:0.25em;
+}

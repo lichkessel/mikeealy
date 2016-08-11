@@ -1,0 +1,42 @@
+/*
+ * Timer Button Preferences
+ *    btn-red...............#830b2c; (background red button)
+ */
+
+.btn, .btn-static {
+	display: block;
+	float: left;
+	padding: 0.2em 0.4em 0.1em 0.5em;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.btn-red, .btn-red-static {
+	color: #fff;
+	background: #830b2c; /* (background red button) */
+}
+
+#control-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#control-links li {
+	float: right;
+	margin-right: 10px;
+}
+
+#wrap-timer {
+	clear: both;
+	padding: 5px 13px 0 0;
+	float: right;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
